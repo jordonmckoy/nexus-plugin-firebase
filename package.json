@@ -1,10 +1,13 @@
 {
   "name": "nexus-plugin-firebase",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jordon McKoy"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/nexus-plugin-firebase.esm.js",
-  "description": "A Nexus framework plugin",
+  "description": "A Nexus framework plugin for Firebase",
   "files": [
     "dist"
   ],
@@ -15,7 +18,7 @@
     "build": "yarn -s build:ts && yarn -s build:doc",
     "test": "jest",
     "publish:stable": "dripip stable",
-    "publish:preview": "dripip preview",
+    "publish:preview": "dripip preview -d",
     "publish:pr": "dripip pr",
     "prepack": "yarn -s build"
   },
@@ -31,5 +34,14 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ]
+  },
+  "devDependencies": {
+    "@types/express-serve-static-core": "^4.17.8",
+    "dripip": "^0.9.0",
+    "jest": "^26.1.0",
+    "nexus": "^0.25.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.13.0"
   }
 }
