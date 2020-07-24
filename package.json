@@ -8,6 +8,20 @@
   "main": "dist/index.js",
   "module": "dist/nexus-plugin-firebase.esm.js",
   "description": "A Nexus framework plugin for Firebase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordonmckoy/nexus-plugin-firebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordonmckoy/nexus-plugin-firebase/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Jordon McKoy",
+      "email": "jordon@upperthirdupload.dev",
+      "url": "https://jordonmckoy.com"
+    }
+  ],
   "files": [
     "dist"
   ],
