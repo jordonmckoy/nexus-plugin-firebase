@@ -56,6 +56,6 @@
     "nexus": "^0.25.0"
   },
   "dependencies": {
-    "firebase-admin": "^8.13.0"
+    "firebase-admin": "^11.4.1"
   }
 }
